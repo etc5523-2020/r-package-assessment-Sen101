@@ -1,24 +1,23 @@
 #' Creates reactive input for Shiny app
 #'
 #' @param
-#' country: selected country
-#' data: original data
+#' id: The identity entered by users
+#' label: What the user sees when the request is entered
 #'
 #' @return
 #' Creates a reactive slider/picker input for Shiny App
 #'
 #' @examples
 #' \dontrun{
-#' selected(country = China)
+#' selected("Country", "Select a Country")
 #' }
 #'
 #' @export
 
-ui_input <- function(country, data){
-  selectInput(
-    inputId = country,
-    label = "Select a Country",
-    choices = sort(unique(data$Country)),
-    selected = sort(unique(data$Country))[1])
+ui_input <- function(id, label){
+  shiny::selectInput(id,
+                     label,
+                     choices = c("China, Japan, Thailand, US, Brazil"),
+                     selected = "China")
 }
 
