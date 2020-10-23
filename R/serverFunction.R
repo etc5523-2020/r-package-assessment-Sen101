@@ -6,10 +6,11 @@
 #' @param
 #' country: filtered country
 #' date: filtered date
+#' data: selected data
 #'
 #' @examples
 #' \dontrun{
-#' selected(country = China)
+#' selected(covid, "Australia", "2020-10-01")
 #' }
 #'
 #' @return different countries dataset
