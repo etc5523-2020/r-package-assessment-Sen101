@@ -1,0 +1,63 @@
+---
+title: "the global COVID-19 epidemic situation"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{the global COVID-19 epidemic situation}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+```{r setup}
+library(COVIDsen)
+```
+
+
+This package provides the **covid** dataset, which contains the COVID-19 epidemic situation in 215 countries. The package also help you to launch the shiny app for you to know the situation of daily cases in the world. 
+
+## How to launch the app 
+
+You can install the released version of COVIDsen from [GitHub](https://github.com/etc5523-2020/r-package-assessment-Sen101) with:
+
+
+``` r
+# install.packages("devtools")
+devtools::install_github("etc5523-2020/r-package-assessment-Sen101")
+```
+After that you could launch the app from the `COVIDsen` package with:
+
+```{r, eval=FALSE}
+launch_app()
+```
+
+## Instructions
+
+These packages are needed to be installed when you run the APP:
+-tidyverse
+
+-shiny
+
+-plotly
+
+-leaflet
+
+-ggplot2
+
+-DT
+
+The first part is the covid-19 situation in different countries and users can select the different countries to know the different cases trend by date.
+
+The second part is the global map about the covid-19 cases and users can select the date and type to know the different situations in the world.
+
+The third part is the table and users can search any country and state data in the table.
+
+
+
+
+
