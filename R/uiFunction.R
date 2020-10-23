@@ -9,7 +9,7 @@
 #'
 #' @examples
 #' \dontrun{
-#' selected("Country", "Select a Country")
+#' ui_input("Country", "Select a Country")
 #' }
 #'
 #' @export
