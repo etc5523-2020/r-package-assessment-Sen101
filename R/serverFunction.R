@@ -3,10 +3,9 @@
 #' @description
 #' Function `filtered()` can filter different countries
 #'
-#' @param
-#' country: filtered country
-#' date: filtered date
-#' data: selected data
+#' @param country filtered country
+#' @param date filtered date
+#' @param data selected data
 #'
 #' @examples
 #' \dontrun{
