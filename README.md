@@ -5,6 +5,10 @@
 
 <!-- badges: start -->
 
+[![R build
+status](https://github.com/etc5523-2020/r-package-assessment-Sen101/workflows/R-CMD-check/badge.svg)](https://github.com/etc5523-2020/r-package-assessment-Sen101/actions)
+[![License: GPL
+v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 <!-- badges: end -->
 
 The goal of COVIDsen is to show the global COVID-19 epidemic situation
@@ -44,3 +48,8 @@ covid
 #> 10 China            Hebei                37.9      115.         1        NA
 #> # ... with 717,365 more rows, and 2 more variables: Deaths <dbl>, Date <date>
 ```
+
+## Run `COVIDsen`
+
+After installing the package, type `launch_app()` in the console to run
+the `COVIDsen` Shiny app.
