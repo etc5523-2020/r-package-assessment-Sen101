@@ -1,5 +1,5 @@
 Package: COVIDsen
-Title: A Shiny application for visualizing the global Covid19 epidemic
+Title: A Shiny application for visualizing the global Covid-19 epidemic
 Version: 0.0.0.9000
 Authors@R: 
     person(given = "Sen",
@@ -16,13 +16,13 @@ RoxygenNote: 7.1.1
 Depends: 
     R (>= 2.10)
 Imports: 
+    tibble
     tidyverse
     shiny
     plotly
     leaflet
     ggplot2
     DT
-    tibble
 Suggests: 
     testthat,
     knitr,
