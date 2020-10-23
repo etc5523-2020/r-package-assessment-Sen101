@@ -38,6 +38,8 @@ launch_app()
 
 ## Instructions
 
+The purpose of the app is to let people can clearly understand the COVID-19 situation.
+
 These packages are needed to be installed when you run the APP:
 -tidyverse
 
